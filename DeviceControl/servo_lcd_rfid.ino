@@ -9,11 +9,11 @@
 #include <WebServer.h>
 
 // Thông tin Wi-Fi
-const char* ssid = "Sang";
-const char* password = "0983171352";
+const char* ssid = "";
+const char* password = "";
 
 // **Cài đặt cho TCP Server (Servo/LCD)**
-const char* tcpHost = "192.168.1.8";
+const char* tcpHost = "";
 const uint16_t tcpPort = 8584;
 AsyncClient *tcpClient;
 
