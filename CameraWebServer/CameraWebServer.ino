@@ -6,8 +6,8 @@
 #include "camera_pins.h"
 
 // Wi-Fi credentials
-const char* ssid = "Sang";
-const char* password = "0983171352";
+const char* ssid = "";
+const char* password = "";
 
 // WebSocket server
 WebSocketsServer webSocket = WebSocketsServer(81); // Port 81
