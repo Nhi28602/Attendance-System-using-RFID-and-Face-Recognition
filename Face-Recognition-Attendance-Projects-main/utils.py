@@ -4,7 +4,7 @@ import face_recognition
 import base64
 import requests
 
-ESP32_CAM_IP = '192.168.1.10'
+ESP32_CAM_IP = ''
 ATTENDANCE_URL = 'http://localhost:8686/api/attendance'
 CONTROL_SERVER_UI_URL = 'http://localhost:8686/api/door'
 DOOR_STATUS_URL = 'http://localhost:8686/api/door/status'
